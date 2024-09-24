@@ -34,6 +34,7 @@ class ClientPrefs {
 	public static var screensaver:Bool = false;
 	public static var controlsAlpha:Float = 0.7;
 	public static var hideHitboxHints:Bool = false;
+	public static var keyboardEnabled:Bool = false;
 
 	#if android
 	public static var storageType:String = "EXTERNAL_DATA";
