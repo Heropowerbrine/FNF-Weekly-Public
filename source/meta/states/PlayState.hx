@@ -4988,7 +4988,7 @@ class PlayState extends MusicBeatState
 
 			notes.forEachAlive(function(daNote:Note)
 			{
-				if(!ClientPrefs.controllerMode)
+				if(!ClientPrefs.controllerMode && !ClientPrefs.keyboardEnabled)
 				{
 				// mobile hold note functions
 				if(!daNote.playField.autoPlayed && daNote.playField.inControl && daNote.playField.playerControls){
